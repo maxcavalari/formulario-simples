@@ -7,7 +7,6 @@
 }
 
 body {
-    margin-right: 30px;
     background-color: #F0F8FF;
     font-size: 1em;
     color: #59429d;
@@ -21,7 +20,7 @@ header {
 
 main {
     justify-content: center;
-    margin: auto;
+    margin: 20px auto;
     width: 450px;
 }
 
