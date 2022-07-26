@@ -20,8 +20,9 @@ header {
 
 main {
     justify-content: center;
-    margin: 20px auto;
+    margin: auto;
     width: 450px;
+    border: 20px;
 }
 
 fieldset {
