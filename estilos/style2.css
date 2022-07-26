@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F0F8FF;
+    font-size: 1em;
+    color: #59429d;
+}
+
+header {
+    color: #380B61;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+main {
+    justify-content: center;
+    margin: auto;
+    width: 450px;
+}
+
+fieldset {
+    border: 0px;
+}
+
+#identificacao input[type="text"] , #identificacao input[type="email"], select, textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.200);
+    display: block;
+    border-radius: 3px;
+}
+
+#lado {
+    margin-top: 1em;
+}
+
+#lado > legend {
+    margin-bottom: 0.5em;
+}
+
+#lado > label {
+    display: block;
+}
+
+#senioridade > label {
+    margin-top: 1em;
+    display: block;
+}
+
+#tecnologia {
+    margin-top: 1em;
+}
+
+#tecnologia > legend {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#experiencia {
+    margin-top: 1em;
+}
+
+#experiencia > textarea {
+    margin-top: 0.5em;
+    display: block;
+    width: 300px;
+}
+
+button {
+    margin-top: 2em;
+    background-color: #59429d;
+    border: 1px solid #59429d;
+    padding: 0.5em 2em;
+    color: white;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.200); 
+    margin-bottom: 2em;   
+}
+
+button:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+#identificacao input:focus, #senioridade select:focus, #experiencia textarea:focus {
+    background-color: #E0E0F8 ;
+}
+
