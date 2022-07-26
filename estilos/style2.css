@@ -22,7 +22,7 @@ main {
     justify-content: center;
     margin: auto;
     width: 450px;
-    border: 20px;
+    padding-left: 50px;
 }
 
 fieldset {
